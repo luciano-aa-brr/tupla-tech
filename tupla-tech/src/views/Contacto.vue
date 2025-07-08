@@ -1,8 +1,8 @@
 <template>
   <section class="contacto">
     <div class="contenedor">
-      <h1>Contáctanos</h1>
-      <p>¿Necesitás ayuda con tu celular o querés desarrollar tu próxima app? ¡Escribinos!</p>
+      <h1 class="titulo">¿Querés comunicarte con Tupla Tech?</h1>
+      <p class="descripcion">Mandanos tus dudas, ideas o proyectos. ¡Nos encanta ayudar!</p>
 
       <form class="formulario">
         <label>
@@ -17,7 +17,7 @@
 
         <label>
           Mensaje:
-          <textarea placeholder="Escribí tu consulta aquí..."></textarea>
+          <textarea placeholder="Dinos tu consulta..."></textarea>
         </label>
 
         <button type="submit">Enviar</button>
