@@ -1,7 +1,7 @@
 <template>
   <section class="contacto">
     <div class="contenedor">
-      <h1 class="titulo">¿Querés comunicarte con Tupla Tech?</h1>
+      <h1 class="titulo">Comunicate con Tupla Tech</h1>
       <p class="descripcion">Mandanos tus dudas, ideas o proyectos. ¡Nos encanta ayudar!</p>
 
       <form class="formulario">
