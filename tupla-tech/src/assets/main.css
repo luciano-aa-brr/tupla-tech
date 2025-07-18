@@ -234,9 +234,10 @@ button:hover {
 
 /* estilo cursos */
 .cursos-grid {
-  background-color: #D9D9D9;
+   background-color: #D9D9D9; /* Fondo gris claro */
+  color: #2B2B2B;
   padding: 4rem 2rem;
-  text-align: center;
+  min-height: 100vh;
 }
 
 .contenedor {
@@ -276,4 +277,38 @@ button:hover {
   font-size: 1.1rem;
   font-weight: bold;
   color: #2B2B2B;
+}
+
+/* estilo footer */
+.footer {
+  background-color: #BFA2DB;
+  color: #F5F5F5;
+  padding: 2rem 0;
+  text-align: center;
+  position: relative;
+  bottom: 0;
+}
+.footer .rrss {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  margin-top: 1rem;
+}
+
+.footer .rrss a {
+  color: #F5F5F5;
+  transition: color 0.3s ease;
+}
+.footer .rrss a:hover {
+  transform: scale(1.1);
+  color: #4A444A;
+}
+.footer .rrss img {
+  width: 30px;
+  height: 30px;
+} 
+.footer p {
+  margin-top: 1rem;
+  font-size: 0.9rem;
+  color: #4A444A;
 }
