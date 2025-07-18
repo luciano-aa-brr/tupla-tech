@@ -1,7 +1,7 @@
 <template>
   <section class="cursos-grid">
     <div class="contenedor">
-      <h1>📚 Mis Certificaciones</h1>
+      <h1>Mis Certificaciones</h1>
       <div class="tarjetas">
         <div v-for="(curso, index) in cursos" :key="index" class="tarjeta">
           <img :src="curso.imagen" :alt="curso.titulo" />
